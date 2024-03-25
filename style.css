@@ -8,6 +8,10 @@
 }
 
 body {
+    background-image: url('./assets/background.png');
+    background-size: contain;
+    background-position: initial;
+    background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
 
@@ -17,6 +21,9 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+}
+.presentation{
+  color: white;
 }
 
 /* TRANSITION */
@@ -31,19 +38,145 @@ a,
 nav,
 .nav-links {
   display: flex;
+  
 }
 
 nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
-}
 
+}
+h3{
+  color: black;
+}
 .nav-links {
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
 }
+/* GENERAL */
+
+body {
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+
+.nav-links a {
+  color: white;
+}
+
+.nav-links a:hover {
+  color: lightgrey;
+}
+
+.logo {
+  color: white;
+}
+
+.hamburger-menu {
+  background-color: rgb(35, 35, 35);
+}
+
+.menu-links {
+  background-color: rgb(35, 35, 35);
+}
+
+.menu-links a {
+  color: white;
+}
+
+.menu-links a:hover {
+  color: lightgrey;
+}
+
+/* SECTIONS */
+
+.section-container {
+  color: white;
+}
+
+.section__text p {
+  color: white;
+}
+
+.title {
+  color: white;
+}
+
+/* ICONS */
+
+.icon {
+  filter: invert(1);
+}
+
+/* BUTTONS */
+
+.btn-color-1,
+.btn-color-2 {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border-color: transparent;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-color-2:hover {
+  border-color: white;
+}
+
+/* ABOUT SECTION */
+
+.details-container {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border-color: white;
+}
+
+/* EXPERIENCE SECTION */
+
+.experience-sub-title {
+  color: white;
+}
+
+/* PROJECTS SECTION */
+
+.color-container {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border-color: white;
+}
+
+.project-title {
+  color: white;
+}
+
+.project-btn {
+  color: white;
+  border-color: white;
+}
+
+/* CONTACT */
+
+.contact-info-upper-container {
+  background-color: rgb(53, 53, 53);
+  color: white;
+  border-color: white;
+}
+
+.contact-info-container a {
+  color: white;
+}
+
+/* FOOTER SECTION */
+
+footer {
+  color: white;
+}
+
 
 a {
   color: black;
@@ -160,7 +293,7 @@ section {
   display: flex;
 }
 
-/* PROFILE SECTION */
+
 
 #profile {
   display: flex;
@@ -187,6 +320,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: white;
 }
 
 .section__text__p2 {
@@ -209,6 +343,15 @@ section {
 /* ICONS */
 
 .icon {
+  cursor: pointer;
+  height: 2rem;
+}
+.aboutt {
+  color: black;
+  cursor: pointer;
+  height: 2rem;
+}
+.icon1 {
   cursor: pointer;
   height: 2rem;
 }
